@@ -1,7 +1,8 @@
 FROM ubuntu
 
-ENV path /tmp
+ENV path /dev
 
 WORKDIR ${path}
 
 COPY . $(path)
+
